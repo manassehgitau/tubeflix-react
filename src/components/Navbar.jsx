@@ -1,34 +1,38 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
     <div className="w-full fixed top-0 z-50 bg-[#0d0c11]" >
       <nav className="flex flex-row justify-around items-center text-base px-0">
         <a className="w-30 h-30 p-0 cursor-pointer" href="#">
-          <img src="./assets/icons/tubeflix-removebg.png" alt="TubeFlix Logo" className="object-cover" />
+          <img src="../../src/assets/icons/tubeflix-removebg.png" alt="TubeFlix Logo" className="object-cover" />
         </a>
         <div
           className="nav-items hidden lg:flex flex-col lg:flex-row justify-center items-center text-md lg:justify-around text-center shadow-2xl rounded-3xl bg-[#0e151d] px-10 py-5 ">
-          <a href="#home" className="mx-5 text-[#fff] hover:text-[#f6101f] transition-colors duration-300 cursor-pointer">
+          <Link to="/" className="mx-5 text-[#fff] hover:text-[#f6101f] transition-colors duration-300 cursor-pointer">
             Home
-          </a>
-          <a href="#tvShows"
+          </Link>
+          <Link to="/trending" className="mx-5 text-[#64748b] hover:text-[#f6101f] transition-colors duration-300 cursor-pointer">
+            Trending
+          </Link>
+          <Link to="/tvShows"
             className="mx-5 text-[#64748b] hover:text-[#f6101f] transition-colors duration-300 cursor-pointer">
             TV Shows
-          </a>
-          <a href="#movies"
+          </Link>
+          <Link to="/movies"
             className="mx-5 text-[#64748b] hover:text-[#f6101f] transition-colors duration-300 cursor-pointer">
             Movies
-          </a>
-          <a href="#contact"
+          </Link>
+          <Link to="/contact"
             className="mx-5 text-[#64748b] hover:text-[#f6101f] transition-colors duration-300 cursor-pointer">
             Contact
-          </a>
+          </Link>
         </div>
 
         <div className="nav-items Sign-in hidden lg:flex flex-row justify-between content-center">
           <button
-            className="px-4 py-2 bg-[#f6101f] rounded-2xl hover:bg-white hover:text-black transition-colors duration-300 lg:block"><a
+            className="px-4 py-2 bg-[#f6101f] text-white rounded-2xl hover:bg-white hover:text-black transition-colors duration-300 lg:block"><a
               href="#trending">Favorites List</a></button>
         </div>
 
