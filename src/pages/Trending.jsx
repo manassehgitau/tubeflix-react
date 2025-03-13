@@ -68,7 +68,7 @@ function Trending() {
                             {trendingData.map((showDatum) => (
                                 <div key={showDatum.id} className="min-w-[200px] bg-[#0e151d] shadow-lg rounded-lg overflow-hidden transition-all duration-300 ease-in-out cursor-pointer movie-card text-white">
                                     <Link to={`/trending/${showDatum.media_type}/${showDatum.id}`}>
-                                        <img src={posterBaseURL + showDatum.poster_path} alt={`Poster of ${showDatum.original_title || showDatum.original_name}`} className="w-full h-48 object-cover" />
+                                        <img src={posterBaseURL + showDatum.poster_path} alt={`Poster of ${showDatum.original_title || showDatum.original_name }`} className="w-full h-48 object-cover" />
                                         <div className="p-4">
                                             <h2 className="text-xl font-semibold line-clamp-1">{showDatum.original_title || showDatum.original_name}</h2>
                                             <p id="showType" className="text-sm">{showDatum.media_type}</p>
