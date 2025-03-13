@@ -6,7 +6,7 @@ function Navbar() {
     <div className="w-full fixed top-0 z-50 bg-[#0d0c11]" >
       <nav className="flex flex-row justify-around items-center text-base px-0">
         <a className="w-30 h-30 p-0 cursor-pointer" href="#">
-          <img src="../../src/assets/icons/tubeflix-removebg.png" alt="TubeFlix Logo" className="object-cover" />
+          <img src="./src/assets/icons/tubeflix-removebg.png" alt="TubeFlix Logo" className="object-cover" />
         </a>
         <div
           className="nav-items hidden lg:flex flex-col lg:flex-row justify-center items-center text-md lg:justify-around text-center shadow-2xl rounded-3xl bg-[#0e151d] px-10 py-5 ">

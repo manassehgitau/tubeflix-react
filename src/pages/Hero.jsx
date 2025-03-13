@@ -37,7 +37,7 @@ function Hero() {
     <div>
       {heroData ? 
       (
-        <div className="hero-image h-screen bg-[#0d0c11] overflow-x-hidden mt-10">
+        <div className="hero-image h-screen bg-[#0d0c11] overflow-x-hidden mt-30">
           <div id="backdrop" className="w-screen h-11/12 bg-center text-white bg-no-repeat bg-cover rounded-md" style={{backgroundImage: `url(${posterBaseURL+heroData.results[0].backdrop_path})`}}>
             <div className="mx-auto pt-40 md:pt-40 lg:pt-70 px-17 flex flex-col justify-center ">
               <div className=" lg:w-5/12 w-full px-7 py-5 rounded-xl bg-[#0d0c11] opacity-80 ">
