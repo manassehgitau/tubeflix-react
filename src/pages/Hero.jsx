@@ -10,14 +10,14 @@ function Hero() {
   useEffect(() => {
     const fetchHeroData = async() => {
       const trendingURL = import.meta.env.VITE_TRENDING_URL;
-      // console.log(trendingURL);
+      console.log(trendingURL);
       try{
         const trendingResponse = await fetch(trendingURL, {
           headers: {
             Authorization: `bearer ${tmdbApiTokenKey}`,
           },
         });
-        // console.log(trendingResponse);
+        console.log(trendingResponse);
 
         if (!trendingResponse.ok) {
           console.log("Failed to fetch data!");

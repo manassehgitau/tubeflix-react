@@ -13,12 +13,12 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.7",
-    "@tailwindcss/vite": "^4.0.12",
+    "@tailwindcss/vite": "^4.0.14",
     "@vercel/analytics": "^1.5.0",
     "axios": "^1.8.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.12"
+    "tailwindcss": "^4.0.14"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -31,5 +31,18 @@
     "globals": "^15.15.0",
     "react-router-dom": "^7.3.0",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "<br/> <div align=\"center\"> <a href=\"https://github.com/manassehgitau/TubeFlix\"> <img src=\"./assets/icons/tubeflix-light-mode.png\" alt=\"Logo\" width=\"80\" height=\"80\"> </a> <h3 align=\"center\">TubeFlix</h3> <p align=\"center\"> A website that recommends the best movies and tv shows to watch <br/> <br/> <a href=\"https://github.com/manassehgitau/TubeFlix/blob/main/README.md\"><strong>Explore the docs »</strong></a>  <br />  <br /> <a href=\"https://www.canva.com/design/DAGgg8958MY/gGwfhmwu66pNvVxgnqSd4Q/view?utm_content=DAGgg8958MY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6e6cb123be\"><strong>See the Presentation »</strong></a> <br/> <br/> <a href=\"https://github.com/manassehgitau/TubeFlix\"><strong>Just A migration from Js »</strong></a> <br/> <br/> <a href=\"https://capstone-02-zeta.vercel.app/\">View Demo .</a>   <a href=\"https://github.com/manassehgitau/TubeFlix/issues\">Report Bug .</a> <a href=\"https://github.com/manassehgitau/TubeFlix/issues\">Request Feature</a> </p> </div>",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manassehgitau/tubeflix-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manassehgitau/tubeflix-react/issues"
+  },
+  "homepage": "https://github.com/manassehgitau/tubeflix-react#readme"
 }
