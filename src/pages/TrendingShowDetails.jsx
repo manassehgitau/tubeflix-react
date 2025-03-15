@@ -38,7 +38,7 @@ function TrendingShowDetails() {
 
       // Search for 1080p official YouTube trailer
       for (let entry of trailerData) {
-        if (entry.size === 1080 && entry.official === true && entry.site === 'YouTube') {
+        if (entry.type === "Trailer" && entry.site === 'YouTube') {
           return youTubeBaseURL + entry.key;
         }
       }
